@@ -8,7 +8,7 @@ const UserForm = ({ onAdd }) => {
     e.preventDefault();
     if (!form.name || !form.email) return alert("Name and Email required!");
     onAdd(form);
-    setForm({ name: "", email: "" });
+    setForm({ name: "", email: ""});
   };
 
   return (

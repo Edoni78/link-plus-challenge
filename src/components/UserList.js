@@ -76,7 +76,8 @@ const UserList = ({ users }) => {
         </tbody>
       </Table>
 
- 
+
+
       <Modal show={showModal} onHide={handleCloseModal} centered>
         <Modal.Header closeButton>
           <Modal.Title>Edit User</Modal.Title>
